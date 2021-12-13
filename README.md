@@ -17,6 +17,7 @@ Bidra gjerne med innhold, maler eller lag Github - issues rundt konkrete utfordr
 
 ## Outputs
  - Referanse arkitektur (er)
+ - Blueprints og maler for deployment
  - PDF/Whitepaper (bygges automatisk basert på Github)
  - Artikler og linker til juridiske vurderinger for å addressere GDPR/Schrems-II/mm. 
  
