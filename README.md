@@ -10,16 +10,17 @@ Vi ønsker å kunne gi en holoistisk arkitektur - med 80-90% av vanlige 'bruksom
 
 Ved å bygge såkalte landingssoner for ulike risiko/eller klassifiseringsdomener - kan vi ha ferdige maler eller standardiserte kjøremiljø for tjenester - enten i offentlig sky eller on-premises eller et full hybrid oppsett.
 
-# Bidra
-Dette er et samarbeid mellom Microsoft, annerkjente tjenestelevandører og offentlige for å utforme retningslinjer, maler og arkitektur for applikasjoner på Microsoft sine skyplattformer (Azure, Microsoft 365, Power Platform mm).
 
-Bidra gjerne med innhold, maler eller lag Github - issues rundt konkrete utfordringer - så ønsker vi at dette prosjektet kan bidra til å komme raskere frem til en akseptabel løsning og målarkitektur for de konkrete utfordringer vi ser i offentlig sektor (fra et teknisk ståsted).
-
-## Outputs
+## Hva som kan forventes
  - Referanse arkitektur (er)
  - Blueprints og maler for deployment
  - PDF/Whitepaper (bygges automatisk basert på Github)
- - Artikler og linker til juridiske vurderinger for å addressere GDPR/Schrems-II/mm. 
+ - Artikler, linker og enkelte tekser til juridiske vurderinger for å addressere GDPR/Schrems-II/mm. 
+
+## Bidrag
+Dette er et samarbeid mellom Microsoft, annerkjente tjenestelevandører og offentlige for å utforme retningslinjer, maler og arkitektur for applikasjoner på Microsoft sine skyplattformer (Azure, Microsoft 365, Power Platform mm).
+
+Bidra gjerne med innhold, maler eller lag issues rundt konkrete utfordringer/problemstillinger. Vi ønsker at dette prosjektet kan bidra til å komme raskere frem til en akseptabel løsning og målarkitektur for de konkrete utfordringer vi ser i offentlig sektor (fra et teknisk ståsted) og hjelpe å navigere/gi innspill rundt utfordringer vi har hørt blant hundrevis av kunder.
  
 ## Disclaimer
 Dette arbeidet er ikke offisiellt sertifisert materiale eller gjennomgått noen juridiske vurderinger. Dette er et samarbeid av flere aktører for hvordan offentlig sektor kan ta i bruk skytjenester, hvilke komponenter og byggeklosser der finnes og hvordan man kan tenke rundt en holoistisk arkitektur for bruk av sky og hybride tjenester - basert på erfaringer, domenekunnskap og en rekke prosjekter og går igjennom ulike aspekter for klassifisering og risiko i forhold til kjøremiljø. Dette arbeidet er rent community driven og ingen av prosjektdeletagerene kan stilles til juridisk ansvar. Vi ønsker derimot å ta opp problemstillinger og komme med tekniske løsninger og/eller linke til artikler som kan understøtte juristene sitt arbeid for risiko.
