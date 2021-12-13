@@ -25,3 +25,7 @@ Bidra gjerne med innhold, maler eller lag issues rundt konkrete utfordringer/pro
 ## Disclaimer
 Dette arbeidet er ikke offisiellt sertifisert materiale eller gjennomgått noen juridiske vurderinger. Dette er et samarbeid av flere aktører for hvordan offentlig sektor kan ta i bruk skytjenester, hvilke komponenter og byggeklosser der finnes og hvordan man kan tenke rundt en holoistisk arkitektur for bruk av sky og hybride tjenester - basert på erfaringer, domenekunnskap og en rekke prosjekter og går igjennom ulike aspekter for klassifisering og risiko i forhold til kjøremiljø. Dette arbeidet er rent community driven og ingen av prosjektdeletagerene kan stilles til juridisk ansvar. Vi ønsker derimot å ta opp problemstillinger og komme med tekniske løsninger og/eller linke til artikler som kan understøtte juristene sitt arbeid for risiko.
 
+## Bidragsytere
+ - Microsoft (Harald S. Fianbakken)
+ - Partners TBA ()
+ - Partners TBA ()
