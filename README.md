@@ -11,7 +11,7 @@ Derfor ønsker vi å legge til rette for et åpent samarbeide i å utvikle malve
 
 Målet for dette prosjektet er å kunne gi forslag til holistiske arkitekturer som dekker 80-90% av de bruksområdene vi ser i offentlig sektor. Referansearkitekturene vil ta utgangspunkt i klassifisering av data og krav til tilgjengelighet for å gi anbefalinger i henhold til teknologivalg og plassering av data og applikasjoner på tvers av offentlig sky og hybride løsninger (on-premise).
 
-Helt konkret er målet å levere både referansearkitekturer og verktøy for raskt å kunne bygge såkalte "landingssoner" for ulike risiko og/eller klassifiseringsdomener.
+Helt konkret er målet å levere både referansearkitekturer og verktøy for raskt å kunne bygge såkalte "landingssoner" for ulike risiko og/eller klassifiseringsdomener for bruk av IaaS og PaaS tjenester.\footnote{Vi tar ikke med SaaS-tjenester i dette prosjektet, da ansvarsforholdet er annerledes og dermed er det behov for en noe annerledes diskusjon, samt at det allerede er ganske god forståelse av hva dette betyr og hvordan det må håndteres i markedet.}
 
 Dette prosjektet vil også ha verdi for privat næringsliv i regulerte industrier, eller som ønsker å klassifisere data og risiko på samme måte, og spesielt for aktører som arbeider eller leverer inn til offentlig sektor.
 
