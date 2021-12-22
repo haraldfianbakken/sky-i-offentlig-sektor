@@ -10,10 +10,14 @@
 1. Klassifisering av data og systemer
     1. Klassifisering av data
     1. Risikoklassifisering av systemer
-1. Nyttige definisjoner og terminologi
+1. Tekniske tiltak
+    1. Kryptering og Bring-Your-Own-Key
+    2. Confidential Computing
+    3. Customer Lockbox for Microsoft Azure
+3. Nyttige definisjoner og terminologi
     1. Hva er en landingssone?
     1. Hva er en SLA?
-1. Vedlegg
+4. Vedlegg
     1. Microsoft EU Data Boundary
     1. Microsoft Azure SOC Rapporter
     1. Online Services Terms for Microsoft Azure
