@@ -19,7 +19,7 @@ jobs:
 
       - uses: docker://pandoc/latex:2.9
         with:
-          args: --filter pandoc-include --output=build/whitepaper.pdf ${{ steps.files_list.outputs.files }}
+          args: --output=build/whitepaper.pdf ${{ steps.files_list.outputs.files }}
           
       - uses: actions/upload-artifact@master
         with:
