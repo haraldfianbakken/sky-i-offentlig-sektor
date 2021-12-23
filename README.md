@@ -35,4 +35,6 @@ Dette arbeidet er ikke offisielt sertifisert materiale og har ikke gjennomgått 
 
 ## Bidragsytere
  - Microsoft (Harald S. Fianbakken, Christopher Frenning)
- - ...
+ - Crayon (Jan Egil Ring)
+ - Sopra Steria (Marius Sandbu)
+ - ..
