@@ -1,6 +1,6 @@
 name: Build whitepaper
 
-on: push
+on: [pull_request]
 
 jobs:
   convert_via_pandoc:
@@ -19,5 +19,5 @@ jobs:
           
       - uses: actions/upload-artifact@master
         with:
-          name: whitepaper.pdf
-          path: build
+          name: whitepaper
+          path: build/whitepaper.pdf

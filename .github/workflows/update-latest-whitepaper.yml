@@ -1,0 +1,37 @@
+name: Update git repo with latest whitepaper
+on: 
+  push:
+    branches:
+      - main 
+    paths-ignore:
+      - "build/*"
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: create file list
+        id: files_list
+        run: |
+          echo "::set-output name=files::$(printf '"%s" ' whitepaper/Innholdsfortegnelse.md)"
+
+      - uses: docker://pandoc/latex:2.9
+        with:
+          args: --output=build/whitepaper.pdf ${{ steps.files_list.outputs.files }}
+          
+      - uses: actions/upload-artifact@master
+        with:
+          name: whitepaper
+          path: build/whitepaper.pdf
+      - name: Commit files
+        run: |
+          git config --local user.email "haraldfianbakken+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add build/whitepaper.pdf
+          git commit -m "Updating whitepaper"
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
