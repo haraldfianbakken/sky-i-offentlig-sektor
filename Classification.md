@@ -25,8 +25,10 @@ Skyleverandør går konkurs, Norge mister all kommunikasjon med omverden, system
  - Leverandør går konkurs
  - Ikke tilgjengelig kapasitet
  - Myndigheter ber om innsyn
- - Hacker(e) får tilgang 
+ - Hacker(e) får tilgang (Storage, compute) 
  - Korrupt ansatt (internt)
  - Korrupt ansatt (vendor/tredjepart)
  - Korrupt ansatt (skyleverandør)
+ - Myndigheter klarer å digital tilgang til datasentere
+ - Fysisk tilgang til utstyr 
 
