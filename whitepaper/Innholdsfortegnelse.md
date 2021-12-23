@@ -21,3 +21,9 @@
     1. Microsoft EU Data Boundary
     1. Microsoft Azure SOC Rapporter
     1. Online Services Terms for Microsoft Azure
+
+```include
+   Readme.md
+   whitepaper/Datasenter.md
+   whitepaper/Classification.md
+```

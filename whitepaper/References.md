@@ -7,6 +7,7 @@
 ## Rapporter, audit, innsyn
 [Klareringssenter](https://www.microsoft.com/nb-no/trust-center/?rtc=1) inneholder hundrevis av rapporter, innsyn og tredjepart audits for Microsoft sine tjenester i sky. Her kan du finne alt fra linker rundt overholdelse av regler og standarder, personvern, datainnsyn mm. 
 
+Alternativt kan du også gå inn her for å finne rapporter direkte: https://servicetrust.microsoft.com/
 ## Schrems-II
 - [EU Data Boundry](https://blogs.microsoft.com/eupolicy/2021/05/06/eu-data-boundary/)
 - [EU Data Boundry - FAQ](https://techcommunity.microsoft.com/t5/security-compliance-and-identity/eu-data-boundary-for-the-microsoft-cloud-frequently-asked/ba-p/2329098)
@@ -22,3 +23,8 @@ Der en tjenestes funksjonalitet krever global datareplikering, er detaljene tilg
  - [Trusted Cloud](https://azure.microsoft.com/en-us/overview/trusted-cloud/)
  - [Datalagring i Azure](https://azure.microsoft.com/nb-no/global-infrastructure/data-residency/#overview)
 
+### Verktøy
+ - Azure Advisor
+ - Azure Security Center
+ - Azure Policy
+ - [Azure Optimization Engine](https://github.com/helderpinto/AzureOptimizationEngine)

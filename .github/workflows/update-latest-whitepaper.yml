@@ -5,6 +5,7 @@ on:
       - main 
     paths-ignore:
       - "build/*"
+
 jobs:
   convert_via_pandoc:
     runs-on: ubuntu-18.04
