@@ -1,9 +1,10 @@
 # Klassifisering
  - Ikke sensitivt (Ikke PII)
  - Sensitivt (PII mm.)
- - Begrenset
- - Hemmelig 
- - Topp hemmelig
+ - Begrenset (Sikkerhetsloven)
+ - Konfidentielt (Sikkerhetsloven)
+ - Hemmelig (Sikkerhetsloven)
+ - Strengt hemmelig (Sikkerhetsloven)
 
 # Tilgjengelighet
 - Høy tilgjengelighet (E.g - Konsumenttjeneste)
