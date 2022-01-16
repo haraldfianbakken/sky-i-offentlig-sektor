@@ -13,7 +13,7 @@ jobs:
         run: |
           echo "::set-output name=files::$(printf '"%s" ' whitepaper/Innholdsfortegnelse.md)"
 
-      - uses: docker://pandoc/latex:2.9
+      - uses: docker://haraldf/pandoc-include:latest
         with:
           args: --output=build/whitepaper.pdf ${{ steps.files_list.outputs.files }} 
           
