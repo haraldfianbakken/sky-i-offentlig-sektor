@@ -19,7 +19,7 @@ jobs:
 
       - uses: docker://haraldf/pandoc-include:latest
         with:
-          args: --output=build/whitepaper.pdf ${{ steps.files_list.outputs.files }}
+          args: --filter pandoc-include --output=build/whitepaper.pdf ${{ steps.files_list.outputs.files }}
           
       - uses: actions/upload-artifact@master
         with:
