@@ -2,7 +2,7 @@
  - Ikke sensitivt (Ikke PII)
  - Sensitivt (PII mm.)
  - Begrenset (Sikkerhetsloven)
- - Konfidentielt (Sikkerhetsloven)
+ - Konfidensielt (Sikkerhetsloven)
  - Hemmelig (Sikkerhetsloven)
  - Strengt hemmelig (Sikkerhetsloven)
 
