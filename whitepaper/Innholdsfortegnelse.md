@@ -1,3 +1,6 @@
+!include ../README.md
+
+\newpage
 # Innholdsfortegnelse
 
 1. Forord
@@ -22,8 +25,13 @@
     1. Microsoft Azure SOC Rapporter
     1. Online Services Terms for Microsoft Azure
 
-```include
-   Readme.md
-   whitepaper/Datasenter.md
-   whitepaper/Classification.md
-```
+
+
+
+
+\newpage
+
+!include Datasenter.md
+
+\newpage
+!include Classification.md
