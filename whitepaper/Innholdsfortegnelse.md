@@ -1,4 +1,4 @@
-!include ../README.md
+!include README.md
 
 \newpage
 # Innholdsfortegnelse
@@ -31,7 +31,7 @@
 
 \newpage
 
-!include Datasenter.md
+!include whitepaper/Datasenter.md
 
 \newpage
-!include Classification.md
+!include whitepaper/Classification.md
