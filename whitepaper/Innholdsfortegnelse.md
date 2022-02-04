@@ -20,7 +20,7 @@
 3. Nyttige definisjoner og terminologi
     1. [Hva er en landingssone?](landingssoner.md)
     1. Hva er en SLA?
-4. [Antimønster](antimonster.md)
+4. [Antimønstre](antimonstre.md)
 1. Vedlegg
     1. Microsoft EU Data Boundary
     1. Microsoft Azure SOC Rapporter
