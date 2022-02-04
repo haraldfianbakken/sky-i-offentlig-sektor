@@ -1,4 +1,6 @@
-# Hva er et datasenter?
+# Hva er sky?
+
+# Hva er et datasenter
 
 I informasjonsteknologiens spede barndom var det en gjengs oppfattning at verden kun ville trenge et begrenset antall datamaskiner. Vi kan kalle dette "stormaskinens tidsalder", og de fleste som benyttet en datamaskin jobbet gjennom en terminal som gav tilgang til data og regnekraft som befant seg i en sentral datamaskin. Disse stormaskinene befant seg typisk i datarommet til en organisasjon eller bedrift - en fysisk sikret lokasjon hvor kun autorisert personnel hadde tilgang.
 
@@ -17,3 +19,6 @@ Med skyteknologi så endres måten man kan kjøpe regnekraft og lagringsplass se
 En annen forskjell på en datasenterleverandør og en skyleverandør er tjenestespekteret. Mens en datasenterleverandør er som en avansert utleier av fysisk plass, er en skyleverandør også en programvare- og driftsleverandør av hundrevis av avanserte tjenester som gjør det mulig å bygge digitale systemer raskere og bedre.
 
 ...
+    
+# Fysisk og logisk sikring av datasentre
+# Ansvarsmodellen for offentlig sky

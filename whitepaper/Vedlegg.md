@@ -20,11 +20,16 @@ Der en tjenestes funksjonalitet krever global datareplikering, er detaljene tilg
 
 ### Linker
  - [Protecting privacy in Microsoft Azure](https://azure.microsoft.com/en-us/blog/protecting-privacy-in-microsoft-azure-gdpr-azure-policy-updates/)
+ - [Microsoft EU Data Boundary](Nytt whitepaper)
  - [Trusted Cloud](https://azure.microsoft.com/en-us/overview/trusted-cloud/)
- - [Datalagring i Azure](https://azure.microsoft.com/nb-no/global-infrastructure/data-residency/#overview)
+ - [Datalagring i Azure](https://azure.microsoft.com/nb-no/global-infrastructure/data-residency/#overview) 
+ - Microsoft Azure SOC Rapporter
+ - Online Services Terms for Microsoft Azure
 
 ### Verktøy
  - Azure Advisor
  - Microsoft Defender for Cloud
  - Azure Policy
  - [Azure Optimization Engine](https://github.com/helderpinto/AzureOptimizationEngine)
+
+ 

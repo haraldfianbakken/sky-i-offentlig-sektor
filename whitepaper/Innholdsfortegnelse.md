@@ -1,38 +1,46 @@
-!include README.md
-
 \newpage
 # Innholdsfortegnelse
 
-1. Forord
-1. Introduksjon
-1. Nye konsepter i skyen
-    1. Hva er sky?
-    1. [Hva er et datasenter?](datasenter.md)
-    1. Fysisk og logisk sikring av datasentre
-    1. Ansvarsmodellen for offentlig sky
-1. Klassifisering av data og systemer
-    1. Klassifisering av data
-    1. Risikoklassifisering av systemer
-1. Tekniske tiltak
-    1. Kryptering og Bring-Your-Own-Key
-    2. Confidential Computing
-    3. Customer Lockbox for Microsoft Azure
-3. Nyttige definisjoner og terminologi
-    1. [Hva er en landingssone?](landingssoner.md)
-    1. Hva er en SLA?
+1. [Introduksjon](Introduksjon.md)
+1. [Felles utfordringer for offentlig](FellesUtfordringer.md)
+1. [Nyttige definisjoner og terminologi](DefinisjonOgTerminologi.md)    
+1. [Introduksjon til sky](Sky.md)    
+1. [Klassifisering av data og systemer](Klassifisering.md)    
+1. [Arkitektur og tekniske tiltak](ArkitekturOgTeknisk.md)    
 4. [Antimønstre](antimonstre.md)
-1. Vedlegg
-    1. Microsoft EU Data Boundary
-    1. Microsoft Azure SOC Rapporter
-    1. Online Services Terms for Microsoft Azure
-
-
-
+1. [Vedlegg](Vedlegg.md)    
 
 
 \newpage
 
-!include whitepaper/Datasenter.md
+!include whitepaper/Introduksjon.md
 
 \newpage
-!include whitepaper/Classification.md
+
+!include whitepaper/FellesUtfordringer.md
+
+\newpage
+
+!include whitepaper/DefinisjonOgTerminologi.md
+
+\newpage
+
+!include whitepaper/Sky.md
+
+\newpage
+
+!include whitepaper/Klassifisering.md
+
+\newpage
+
+!include whitepaper/ArkitekturOgTeknisk.md
+
+\newpage
+
+!include whitepaper/antimonstre.md
+
+\newpage
+
+!include whitepaper/Vedlegg.md
+
+\newpage
