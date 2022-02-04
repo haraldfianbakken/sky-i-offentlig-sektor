@@ -25,6 +25,6 @@ Der en tjenestes funksjonalitet krever global datareplikering, er detaljene tilg
 
 ### Verktøy
  - Azure Advisor
- - Azure Defender for Cloud
+ - Microsoft Defender for Cloud
  - Azure Policy
  - [Azure Optimization Engine](https://github.com/helderpinto/AzureOptimizationEngine)
