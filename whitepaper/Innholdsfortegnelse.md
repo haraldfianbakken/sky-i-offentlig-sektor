@@ -18,9 +18,10 @@
     2. Confidential Computing
     3. Customer Lockbox for Microsoft Azure
 3. Nyttige definisjoner og terminologi
-    1. Hva er en landingssone?
+    1. [Hva er en landingssone?](landingssoner.md)
     1. Hva er en SLA?
-4. Vedlegg
+4. [Antimønster](antimonster.md)
+1. Vedlegg
     1. Microsoft EU Data Boundary
     1. Microsoft Azure SOC Rapporter
     1. Online Services Terms for Microsoft Azure
