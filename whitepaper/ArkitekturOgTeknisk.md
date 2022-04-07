@@ -1,17 +1,48 @@
 # Referansearkitektur
 
+Rent overordnet kan man se på en ende-til-ende arkitektur - hvor vi tenker bør skille på hva som lovmessig må ligge i egne datasentere (lovmessig reguleringer/krav) og hvordan vi bør klassifisere applikasjoner.
+
 ![High-level](illustrations/high-level-architecture.png)
+
+## Klassifiseringmatrise for applikasjoner
+Her er et forsøk på hvordan vi kan tenke rundt klassifisering/skille av applikasjoner:
+
+- Publikumstjeneste/Applikasjon (Internet exposed)
+- Intern applikasjon (interne ansatte)
+- PII
+- Ikke PII
+- Ikke sammfunnskritisk (tåler noe nedetid) 
+- Sammfunnskritisk - delte tjenester (nasjonale)
+
+Sammfunnskritiske tjenester som må kjøre og være tilgjengelig som er delt på tvers av lokasjoner/uavhengig av lokasjon.
+
+Sluttbrukere/systemer bruker internet (VPN eller MPLS).
+
+- Sammfunnskritiske - lokale tjenster (edge)
+Sammfunnskritiske tjenester må fungere i nødssituasjon hvor deler faller ut og tåler lite/eller ingen nedetid eller er svært sensitive til latens.
+
+Sluttbrukere/systemer befinner seg lokalt (e.g. et sykehus/sykebil) mm.
+
+- Særskilte lover (hvor public cloud gjør det umulig)
+
+
 
 ## On-premises
 Dette er servere (virtualisert eller bare-metal) du har i dine egne datasentere hvor du kan drifte deler av applikasjonsporteføljen.
 
-## Plassering av applikasjoner
-
 ## Nettverk
 
-Du kan sikkert knytte ditt kontor til Azure ved hjelp av f.eks Site-to-Site VPN.
+Du kan sikkert knytte ditt kontor til Azure ved hjelp av f.eks Site-to-Site VPN eller Azure Express Route.
 
 Dersom det er behov for svært mange klienter tilknyttet et virtuelt nettverk og/eller det er mange kontorer som skal tilknyttes - så bør man vurdere å kombinere dette med Azure Virtual WAN.
+
+## Sikring av nettverk
+
+I Azure finnes det mange aspekter av nettverkssikkerhet. På mange måter kan man designe en nettverkstopolgi som ligner et tradisjonelt datasenter med segmentering mm. 
+
+Man kan sikre trafikkflyt og nettverk i Azure med blant annet NSGs (Network security groups), Application Security groups, Brannmurer (Azure Firewall - eller tredjeparter slik som Barracuda, BigIp/F5 mm.). 
+
+I tillegg bør du basere sikkerhetsmodellen din på en "Zero Trust" modell (Se Zero trust in Azure her). 
 
 ## Tekniske komponenter for sikring og compliance
 
@@ -49,3 +80,4 @@ I en særskilt krisesituasjon bør vi stille oss følgende spørsmål:
 - [Bokføringsloven]
 - [Sikkerhetsloven]
 - [NKOM]
+- [NSM]
