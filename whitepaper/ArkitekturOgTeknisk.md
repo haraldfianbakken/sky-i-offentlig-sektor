@@ -1,6 +1,6 @@
 # Referansearkitektur
 
-Rent overordnet kan man se på en ende-til-ende arkitektur - hvor vi tenker bør skille på hva som lovmessig må ligge i egne datasentere (lovmessig reguleringer/krav) og hvordan vi bør klassifisere applikasjoner.
+Rent overordnet kan man se på en helhetlig arkitektur hvor vi  bør skille på hva som lovmessig må ligge i egne datasentere (lovmessig reguleringer/krav) og hvordan vi klassifiserer ulike applikasjoner.
 
 ![High-level](illustrations/high-level-architecture.png)
 
@@ -24,8 +24,6 @@ Sammfunnskritiske tjenester må fungere i nødssituasjon hvor deler faller ut og
 Sluttbrukere/systemer befinner seg lokalt (e.g. et sykehus/sykebil) mm.
 
 - Særskilte lover (hvor public cloud gjør det umulig)
-
-
 
 ## On-premises
 Dette er servere (virtualisert eller bare-metal) du har i dine egne datasentere hvor du kan drifte deler av applikasjonsporteføljen.
@@ -81,3 +79,10 @@ I en særskilt krisesituasjon bør vi stille oss følgende spørsmål:
 - [Sikkerhetsloven]
 - [NKOM]
 - [NSM]
+
+NSM har en rekke råd og anbefalinger for IKT sikkerhet.
+I følgende artikkel: [Grunnprinsipper for IKT-sikkerhet 2.0](https://nsm.no/regelverk-og-hjelp/rad-og-anbefalinger/grunnprinsipper-for-ikt-sikkerhet-2-0) kan du finne detaljert informasjon og guidelines.
+
+En rekke av disse kan automatiseres og rapporteres på ved hjelp av Azure Policies som kan implementeres og rulles ut i storskala.
+
+Vi tenker å påbegynne noe av arbeidet her med å utarbeide noen slike policies som kan rapporters på tvers av en enterprise.
