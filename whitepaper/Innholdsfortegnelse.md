@@ -29,10 +29,6 @@
 
 \newpage
 
-!include whitepaper/Klassifisering.md
-
-\newpage
-
 !include whitepaper/ArkitekturOgTeknisk.md
 
 \newpage

@@ -1,4 +1,9 @@
-## Antimønstre
+## Skyadopsjon og antimønstre
+Skyadopsjon kan fort gå feil dersom man ikke gjør god planlegging, forventningsstyring og arbeider med adopsjon som endel av organisasjonen. 
+
+Microsoft Cloud Adoption framework inneholder ca 1500 sider med god dokumentasjon på hvordan man skal gå frem for å tilvenne seg sky.
+
+Det er identifsert en rekke 'antimønstre' (Anti-patterns) som man bør ta en ekstra titt på for å sikre at man går til sky på riktig grunnlag. 
 
  Fase | Antimønster | Referanse |
 | ------------- |-------------| -----|
@@ -22,3 +27,13 @@
 | Organisering | Utvikling av plattform uten godkjennelse fra forretningen | [Antipattern: Invest in new technology without involving the business](./organize-antipatterns.md#antipattern-invest-in-new-technology-without-involving-the-business) |
 | Organisering | Tjenesteutsette kjerneområder i forretningen | [Antipattern: Outsource core business functions](./organize-antipatterns.md#antipattern-outsource-core-business-functions) |
 | Organisering | Tekniske beslutningstakere fremfor skyarkitekter | [Antipattern: Hire technical decision makers instead of developing cloud engineers](./organize-antipatterns.md#antipattern-hire-technical-decision-makers-instead-of-developing-cloud-engineers) |
+
+Har man utilstrekkelig med forankring i organisasjonen eller syntes det er vanskelig å jobbe med adopsjon - så kan både skyleverandør og partnere hjelpe deg med å kjøre ulike workshops. 
+
+// TODO - LEGG TIL LINKER HER
+
+På Azure Marketplace og find CAF partner kan du finne liste over partnere som tilbyr workshops.
+
+// END TODO
+
+Er du usikker på om du har en adopsjonsplan? Undersøk om din organisasjon har en adopsjonsplan og se hvordan det påvirker deg.

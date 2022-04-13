@@ -6,7 +6,10 @@ Landingssoner muliggjør migrering, modernisering og innovasjon i stor-skala i A
 
 Sonene som etableres tar høyde for alle plattformressurser som er nødvendig for å understøtte en bedrift`s applikasjons-portefølje og differensierer ikke mellom infrastruktur som tjeneste og plattform som en tjeneste.
 
+Generelt kan vi se på en landingssone slik:  
 ![Landingssone](illustrations/lz-design.png)
+
+En målarkitektur for offentlig sektor må ta høyde for både on-prem (/edge) og public cloud og styringgsett må understøtte dette holoistisk.
 
 # Tilgjengelighet (SLA)
 - Høy tilgjengelighet (E.g - Konsumenttjeneste)
@@ -21,7 +24,3 @@ En hel region går ned og blir utilgjengelig.
 - Fullstendig suverenitet/autonomitet (autonomity/soveriginity)
 Skyleverandør går konkurs, Norge mister all kommunikasjon med omverden, systemer som må fungere uavhengig av skyleverandør.
 
-# Gjenopprettingspunkt (RPO)
-
-
-# Tradisjonell sonemodell 

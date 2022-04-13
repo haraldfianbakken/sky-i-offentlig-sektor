@@ -1,29 +1,40 @@
 # Referansearkitektur
 
-Rent overordnet kan man se på en helhetlig arkitektur hvor vi  bør skille på hva som lovmessig må ligge i egne datasentere (lovmessig reguleringer/krav) og hvordan vi klassifiserer ulike applikasjoner.
+Rent overordnet kan man se på en helhetlig arkitektur hvor vi bør skille på hva som lovmessig må ligge i egne datasentere/edge (lovmessig reguleringer og krav eller sammfunnskritisk) og hvordan vi klassifiserer ulike applikasjoner som kan  plasseres i sky, edge eller on-premises.
 
 ![High-level](illustrations/high-level-architecture.png)
+
+// TODO:
+    Bør vi ha en forenklet modell for 'most common' scenarios? Iom. at det er få offentlige som er underlagt sikkerhetsloven? 
+
+    Eks. 2-3 scenarier: Sykehus med 2-3 lokasjoner? Kommune med x antall avdelinger/publikumstjenester, interne tjenester mm.
+// END TODO
 
 ## Klassifiseringmatrise for applikasjoner
 Her er et forsøk på hvordan vi kan tenke rundt klassifisering/skille av applikasjoner:
 
-- Publikumstjeneste/Applikasjon (Internet exposed)
+- Publikumstjeneste/Applikasjon (Internett eksponert)
 - Intern applikasjon (interne ansatte)
-- PII
-- Ikke PII
+- Ikke PII/sensitivt 
+- PII/Sensitivt 
+- Begrenset (Sikkerhetsloven)
+- Konfidensielt (Sikkerhetsloven)
+- Hemmelig (Sikkerhetsloven)
+- Strengt hemmelig (Sikkerhetsloven)
+- Særskilte lover / krav *(Eks. EKOM)
 - Ikke sammfunnskritisk (tåler noe nedetid) 
 - Sammfunnskritisk - delte tjenester (nasjonale)
 
-Sammfunnskritiske tjenester som må kjøre og være tilgjengelig som er delt på tvers av lokasjoner/uavhengig av lokasjon.
+Sammfunnskritiske tjenester som må kjøre og være tilgjengelig som er delt på tvers av lokasjoner/uavhengig av lokasjon. 
 
-Sluttbrukere/systemer bruker internet (VPN eller MPLS).
+Sluttbrukere eller systemer - bruker internet (VPN eller MPLS) eller telefoni for å nå tjenester.
 
-- Sammfunnskritiske - lokale tjenster (edge)
+- Sammfunnskritiske - lokale tjenster (edge & hybrid)
 Sammfunnskritiske tjenester må fungere i nødssituasjon hvor deler faller ut og tåler lite/eller ingen nedetid eller er svært sensitive til latens.
 
 Sluttbrukere/systemer befinner seg lokalt (e.g. et sykehus/sykebil) mm.
 
-- Særskilte lover (hvor public cloud gjør det umulig)
+# Matrise
 
 ## On-premises
 Dette er servere (virtualisert eller bare-metal) du har i dine egne datasentere hvor du kan drifte deler av applikasjonsporteføljen.
@@ -67,11 +78,11 @@ I tillegg bør du basere sikkerhetsmodellen din på en "Zero Trust" modell (Se Z
 
 I en særskilt krisesituasjon bør vi stille oss følgende spørsmål:
 
- - Hvor lang tid tar det før ditt eget utstyr begynner å feile?
- - Hvilke 'skjulte' avhengigheter har dine systemer?
- - Hvordan skal sluttbrukere nå applikasjoner som er eksponert på internett? (DNS/Sertifikater mm.)
+ - Hvor lang tid tar det før ditt eget utstyr begynner å feile (on-premises utstyr)?
+ - Hvilke 'skjulte' avhengigheter har dine systemer? (eks. DNS/CA mm)
+ - Hvordan skal sluttbrukere nå applikasjoner som er eksponert på internett? 
 
-## Særskilte norske krav (som man bør ta stilling til)
+## Særskilte norske lover, krav og anbefalinger(som man bør ta stilling til)
 
 - [Arkivloven](https://www.arkivverket.no/for-arkiveiere/skylagring-og-skanning-i-utlandet#:~:text=Arkivloven%20inneholder%20ingen%20bestemmelser%20som,for%20bruk%20av%20slike%20l%C3%B8sninger.&text=Arkivloven%20%C2%A7%207%20forplikter%20Riksarkivaren,med%20arkivarbeidet%20i%20offentlige%20organ.): *"Arkivloven inneholder ingen bestemmelser som direkte regulerer lagring av arkiv i skytjenester, og er i utgangspunktet ikke til hinder for bruk av slike løsninger. Det følger likevel av arkivloven § 9 b at arkivmateriale ikke kan «førast ut or landet, dersom dette ikkje representerer ein naudsynt del av den forvaltningsmessige eller rettslege bruken av dokumenta.” Når det er lagt til grunn at den fysiske lagringsplassen avgjør hvor data er å finne, følger det naturlig av denne bestemmelsen at overføring av arkivmateriale til servere i utlandet bryter med forbudet mot å føre arkiv ut av landet."*
 

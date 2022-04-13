@@ -1,4 +1,5 @@
 # Felles utfordringer for offentlig
+Nedenfor finner du en liste over felles utfordringer vi hører for offentlig sektor - og noen betraktninger på hvordan sky kan hjelpe å kontre noen av disse utfordringene. 
 
  - Teknisk gjeld
  - Mangel på ressurser (Personell)
@@ -25,7 +26,7 @@
  - Hacker(e) får tilgang (Storage, compute)
  - Korrupt ansatt (internt)
  - Korrupt ansatt (vendor/tredjepart)
- - Korrupt ansatt (skyleverandør)
- - Myndigheter klarer å digital tilgang til datasentere
+ - Korrupt ansatt (tjenesteleverandør (datasenter eller skyleverandør)
+ - Myndigheter klarer å få digital tilgang til datasentere
  - Fysisk tilgang til utstyr
  - FISA 702
