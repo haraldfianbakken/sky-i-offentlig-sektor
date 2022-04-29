@@ -33,10 +33,8 @@ Det er identifsert en rekke 'antimønstre' (Anti-patterns) som man bør ta en ek
 
 Har man utilstrekkelig med forankring i organisasjonen eller syntes det er vanskelig å jobbe med adopsjon - så kan både skyleverandør og partnere hjelpe deg med å kjøre ulike workshops. 
 
-// TODO - LEGG TIL LINKER HER
-
 På Azure Marketplace og find CAF partner kan du finne liste over partnere som tilbyr workshops.
 
-// END TODO
-
 Er du usikker på om du har en adopsjonsplan? Undersøk om din organisasjon har en adopsjonsplan og se hvordan det påvirker deg.
+
+Er du usikker på hvilke partnere som tilbyr workshops i skyadopsjon så sjekk [Azure Marketplace her](https://azuremarketplace.microsoft.com/en-us/marketplace/consulting-services?search=cloud%20adoption&page=1&filters=country-norway).
