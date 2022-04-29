@@ -1,6 +1,6 @@
 ---
 title: "Bruk av sky i offentlig sektor"
-eometry: a4paper, margin=1.5cm
+geometry: a4paper, margin=1.5cm
 output: pdf_document
 ---
 
