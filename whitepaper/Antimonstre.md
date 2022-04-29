@@ -8,8 +8,10 @@ Det er identifsert en rekke 'antimønstre' (Anti-patterns) som man bør ta en ek
 
  Fase | Antimønster | Referanse |
 | ------------- |-------------| -----|
+| Strategi | Manglende skystrategi | [legg til referanse]
+| Strategi | Manglende forankring | [legg til referanse]
 | Strategi | Utilstrekkelig motivasjon | [Adopt the cloud without establishing goals](./strategy-antipatterns.md#antipattern-adopt-the-cloud-without-establishing-goals) |
-| Strategy | Feil motivasjon | [Fail to communicate motivations](./strategy-antipatterns.md#antipattern-fail-to-communicate-motivations) |
+| Strategi | Feil motivasjon | [Fail to communicate motivations](./strategy-antipatterns.md#antipattern-fail-to-communicate-motivations) |
 | Planlegging | Feil skydriftsmodell | [Choose the wrong cloud operating model](./plan-antipatterns.md#antipattern-choose-the-wrong-cloud-operating-model) |
 | Planlegging | Feil tjenestemodell | [Choose the wrong service model](./plan-antipatterns.md#antipattern-choose-the-wrong-service-model) |
 | Planlegging | Erstatte fremfor å modernisere | [Replace architecture](./plan-antipatterns.md#antipattern-replace-architecture) |
