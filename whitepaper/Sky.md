@@ -40,3 +40,9 @@ slik som perimetersikring kombinert med videoovervåking og døgkontinuerlig bem
 
 
 ## Sky og bærekraft
+    
+!include whitepaper/Ansvarsmodell.md
+
+\newpage
+
+!include whitepaper/Sikkerhet.md

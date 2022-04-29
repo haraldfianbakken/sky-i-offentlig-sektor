@@ -7,7 +7,7 @@ Rent overordnet kan man se på en helhetlig arkitektur hvor vi bør skille på h
 // TODO:
     Bør vi ha en forenklet modell for 'most common' scenarios? Iom. at det er få offentlige som er underlagt sikkerhetsloven? 
 
-    Eks. 2-3 scenarier: Sykehus med 2-3 lokasjoner? Kommune med x antall avdelinger/publikumstjenester, interne tjenester mm.
+    Eks. MVP 1 kommune med e.g.: Sykehus /sykehjem + x antall avdelinger/publikumstjenester, interne tjenester mm.
 // END TODO
 
 ## Klassifiseringmatrise for applikasjoner
@@ -19,11 +19,14 @@ Her er et forsøk på hvordan vi kan tenke rundt klassifisering/skille av applik
 - PII/Sensitivt 
 - Begrenset (Sikkerhetsloven)
 - Konfidensielt (Sikkerhetsloven)
-- Hemmelig (Sikkerhetsloven)
+- Ikke sammfunnskritisk (tåler noe nedetid) 
+
+// TODO ikke i scope for v1.0
+- Hemmelig (Sikkerhetsloven) 
 - Strengt hemmelig (Sikkerhetsloven)
 - Særskilte lover / krav *(Eks. EKOM)
-- Ikke sammfunnskritisk (tåler noe nedetid) 
 - Sammfunnskritisk - delte tjenester (nasjonale)
+// End todo
 
 Sammfunnskritiske tjenester som må kjøre og være tilgjengelig som er delt på tvers av lokasjoner/uavhengig av lokasjon. 
 
@@ -119,3 +122,11 @@ Under vises et eksempel på sikkerhetstiltak fra ulike kategorier i NSM grunnpri
 | 3.1.1 Gjennomfør jevnlig sårbarhetskartlegging. | 3.1 Oppdag og fjern kjente sårbarheter og trusler | 3. Oppdage | [A vulnerability assessment solution should be enabled on your virtual machines](https://portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyDetailBlade/definitionId/%2Fproviders%2FMicrosoft.Authorization%2FpolicyDefinitions%2F501541f7-f7e7-4cd6-868c-4190fdad3ac9) | IaaS i Azure eller hybrid- og multisky med Azure Arc |
 | 3.1.1 Gjennomfør jevnlig sårbarhetskartlegging. | 3.1 Oppdag og fjern kjente sårbarheter og trusler | 3. Oppdage | [Vulnerability assessment should be enabled on SQL Managed Instance](https://portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyDetailBlade/definitionId/%2Fproviders%2FMicrosoft.Authorization%2FpolicyDefinitions%2F1b7aa243-30e4-4c9e-bca8-d0d3022b634a) | PaaS i Azure |
 | 3.1.3 Benytt automatisert og sentralisert verktøy for å håndtere kjente trusler (som skadevare). | 3.1 Oppdag og fjern kjente sårbarheter og trusler | 3. Oppdage | [Endpoint protection should be installed on your machines](https://portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyDetailBlade/definitionId/%2Fproviders%2FMicrosoft.Authorization%2FpolicyDefinitions%2F1b7aa243-30e4-4c9e-bca8-d0d3022b634a) | IaaS i Azure eller hybrid- og multisky med Azure Arc |
+
+# CSA Cloud Controls Matrix (CCM)
+Cloud Security alliance og (https://cloudsecurityalliance.org/research/cloud-controls-matrix/)[CCM mapping]er vanlig brukt for benchmarking mot ulike sertifiseringer og i kravspesifikasjoner rettet mot skyleverandør.
+
+Microsoft har en omfattende mapping på hvordan dere skyløsning mappes mot CCM kontrollere.
+
+Se full rapport her mot ulike kontroller fra f.eks CIS/NIST/PCI/ISO mm:
+https://cloudsecurityalliance.org/artifacts/cloud-controls-matrix-v4/ 

@@ -8,8 +8,3 @@ De fleste kunder som har sky tjenester idag har en god kombinasjon av IaaS/PaaS 
 
 Dette kan forenkle driftsmodellen betraktelig slik overnevnte modell viser - i motsetning til at man kjører alt i eget datasenter (on-prem) hvor man er ansvarlig ansvarlig for alt fra fysisk sikring av bygninger, infrastruktur og hele veien oppover i 'stacken'. 
 
-// TODO : Legg på link til Sikkerhet.md
-
-Når det gjelder sikkerhet i skyen - så diskuterer vi overnevnte modell i mer detalj her
-
-// END todo
