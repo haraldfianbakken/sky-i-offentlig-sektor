@@ -17,3 +17,14 @@ Målet for dette prosjektet er å kunne gi forslag til holistiske arkitekturer s
 Helt konkret er målet å levere både referansearkitekturer og verktøy for raskt å kunne bygge såkalte "landingssoner" for ulike risiko og/eller klassifiseringsdomener for bruk av IaaS og PaaS tjenester.\footnote{Vi tar ikke med SaaS-tjenester i dette prosjektet, da ansvarsforholdet er annerledes og dermed er det behov for en noe annerledes diskusjon, samt at det allerede er ganske god forståelse av hva dette betyr og hvordan det må håndteres i markedet.}
 
 Dette prosjektet vil også ha verdi for privat næringsliv i regulerte industrier, eller som ønsker å klassifisere data og risiko på samme måte, og spesielt for aktører som arbeider eller leverer inn til offentlig sektor.
+
+## Scope - v1.0
+I første utgave av whitepaper - så addresserer vi kommunal sektor og problemstillinger her.
+
+Vi tenker at i fremtidige versjoner så bør man addressere f.eks:
+
+ - Helse 
+ - Militært
+ - Andre offentlige etater
+
+Da disse har ulike andre utfordringer i forhold til leverandører av utstyr, oppetid, sertifiseringer, sensitivitet og andre særskilte lover.

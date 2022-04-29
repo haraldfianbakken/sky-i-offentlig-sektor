@@ -20,5 +20,8 @@ En annen forskjell på en datasenterleverandør og en skyleverandør er tjeneste
 
 ...
     
-# Fysisk og logisk sikring av datasentre
-# Ansvarsmodellen for offentlig sky
+!include whitepaper/Ansvarsmodell.md
+
+\newpage
+
+!include whitepaper/Sikkerhet.md
