@@ -7,7 +7,8 @@
 1. [Introduksjon til sky](Sky.md)    
 1. [Klassifisering av data og systemer](Klassifisering.md)    
 1. [Arkitektur og tekniske tiltak](ArkitekturOgTeknisk.md)    
-4. [Antimønstre](antimonstre.md)
+1. [Antimønstre](antimonstre.md)
+1. [Implementasjon](implementasjon.md)
 1. [Vedlegg](Vedlegg.md)    
 
 

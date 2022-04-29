@@ -34,6 +34,7 @@ Sammfunnskritiske tjenester må fungere i nødssituasjon hvor deler faller ut og
 
 Sluttbrukere/systemer befinner seg lokalt (e.g. et sykehus/sykebil) mm.
 
+// TODO  - Klarer vi å lage en visualisering/ decision tree?
 # Matrise
 
 ## On-premises
