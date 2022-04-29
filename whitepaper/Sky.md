@@ -38,6 +38,7 @@ slik som perimetersikring kombinert med videoovervåking og døgkontinuerlig bem
 
 ## Azure i Norge
 
+Azure tjenester levereres i Norge fra "Norway East" og "Norway West" regionene. Norway East har 3 soner; datasenter med separat strøm, kjøling og nettverk. Norway West er en sk satellitt-regione som brukes før disaster recovery. Alle Azure regioner bygges med strikte krav på fysiskt sikkerhet, tilgang og redundans.
 
 ## Sky og bærekraft
     
