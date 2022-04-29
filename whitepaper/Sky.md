@@ -1,14 +1,18 @@
 # Hva er sky?
 
-# Hva er et datasenter
+
+## Hva er et datasenter
 
 I informasjonsteknologiens spede barndom var det en gjengs oppfattning at verden kun ville trenge et begrenset antall datamaskiner. Vi kan kalle dette "stormaskinens tidsalder", og de fleste som benyttet en datamaskin jobbet gjennom en terminal som gav tilgang til data og regnekraft som befant seg i en sentral datamaskin. Disse stormaskinene befant seg typisk i datarommet til en organisasjon eller bedrift - en fysisk sikret lokasjon hvor kun autorisert personnel hadde tilgang.
 
 Etterhvert som avhengigheten til datasystemer økte, ble det satt større og større krav til fysisk sikring og redundans for slike datarom, og det ble etterhvert både vanskelig, upraktisk og ulønnsomt å etterleve disse kravene for hver enkelt organisasjon og bedrift. Samtidig fikk vi ny og raskere nettverksteknologi som gjorde det mulig å flytte både stormaskiner, servere og data lengre unna brukerne. Dette la grunnlaget for en ny industri:  datasenterindustrien.
 
-Idag er datasenterindustrien en sentral komponent i vår digitale infrastruktur. Dedikerte datasenterleverandører leverer redundante tilkoblinger til nettverk- og elektrisitetsnett, nød-aggregater som holder datasenteret igang selv gjennom lange perioder med strømbrudd, og strenge tiltak for fysisk sikring slik som perimetersikring kombinert med videoovervåking og døgkontinuerlig bemanning.
+Idag er datasenterindustrien en sentral komponent i vår digitale infrastruktur. Dedikerte datasenterleverandører leverer redundante tilkoblinger til nettverk- og elektrisitetsnett, nød-aggregater som holder datasenteret igang selv gjennom lange perioder med strømbrudd, og strenge tiltak for fysisk sikring for å hindre uautorisert tilgang.
 
 I dag vil de aller fleste organisasjoner velge å benytte en profesjonell datasenterleverandør fremfor å bygge sitt eget datarom.
+
+
+## Fra datasenter til skytjenester
 
 Hva er så sky, og hvordan skiller skyleverandører seg fra datasenterleverandører?
 
@@ -18,7 +22,21 @@ Med skyteknologi så endres måten man kan kjøpe regnekraft og lagringsplass se
 
 En annen forskjell på en datasenterleverandør og en skyleverandør er tjenestespekteret. Mens en datasenterleverandør er som en avansert utleier av fysisk plass, er en skyleverandør også en programvare- og driftsleverandør av hundrevis av avanserte tjenester som gjør det mulig å bygge digitale systemer raskere og bedre.
 
+
+## Hva er hybrid?
+
 ...
-    
-# Fysisk og logisk sikring av datasentre
-# Ansvarsmodellen for offentlig sky
+
+
+## Fysisk og logisk sikring av datasentre
+
+slik som perimetersikring kombinert med videoovervåking og døgkontinuerlig bemanning.
+
+
+## Ansvarsmodellen for offentlig sky
+
+
+## Azure i Norge
+
+
+## Sky og bærekraft
