@@ -1,4 +1,5 @@
-## Skyadopsjon og antimønstre
+## Antimønstre for skyadopsjon
+
 Skyadopsjon kan fort gå feil dersom man ikke gjør god planlegging, forventningsstyring og arbeider med adopsjon som endel av organisasjonen. 
 
 Microsoft Cloud Adoption framework inneholder ca 1500 sider med god dokumentasjon på hvordan man skal gå frem for å tilvenne seg sky.
