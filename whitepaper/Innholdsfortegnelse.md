@@ -1,15 +1,7 @@
 \newpage
 # Innholdsfortegnelse
 
-1. [Introduksjon](Introduksjon.md)
-1. [Felles utfordringer for offentlig](FellesUtfordringer.md)
-1. [Nyttige definisjoner og terminologi](DefinisjonOgTerminologi.md)    
-1. [Introduksjon til sky](Sky.md)    
-1. [Klassifisering av data og systemer](Klassifisering.md)    
-1. [Arkitektur og tekniske tiltak](ArkitekturOgTeknisk.md)    
-1. [Antimønstre](antimonstre.md)
-1. [Implementasjon](implementasjon.md)
-1. [Vedlegg](Vedlegg.md)    
+\tableofcontents  
 
 
 \newpage
