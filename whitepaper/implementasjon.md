@@ -10,11 +10,10 @@ I den initielle referanse-implementasjonen for kommunal sektor er bruk av Azure 
 
 - 1 Azure AD tenant
 - 1 eller flere Azure abonnementer
-    - Ett enkelt kan benyttes, men anbefales kun for test & proof-of-concepts. Se [Use a single subscription](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/antipatterns/migrate-antipatterns#antipattern-use-a-single-subscription) for mer info.
+    - Ett enkelt kan benyttes, men anbefales kun for test & proof-of-concepts. Se [Use a single subscription](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/antipatterns/migrate-antipatterns#antipattern-use-a-single-subscription) for mer info. For produksjons-oppsett anbefales minumum 4: Connectivity, Identity, Management og Landing Zone.
 - Rettigheter
     - Global Administrator i Azure AD
     - Owner på Root Management Group (/)
-    - Roller og rettigheter i AAD for ulike administrative oppgaver ** (Partner delegation?)
 
 ## Azure landingssone aksellerator
 
