@@ -1,43 +1,34 @@
-\newpage
-# Innholdsfortegnelse
+---
+title: "Bruk av sky i offentlig sektor"
+geometry: a4paper, margin=1.5cm
+output: pdf_document
+---
 
-1. [Introduksjon](Introduksjon.md)
-1. [Felles utfordringer for offentlig](FellesUtfordringer.md)
-1. [Nyttige definisjoner og terminologi](DefinisjonOgTerminologi.md)    
-1. [Introduksjon til sky](Sky.md)    
-1. [Klassifisering av data og systemer](Klassifisering.md)    
-1. [Arkitektur og tekniske tiltak](ArkitekturOgTeknisk.md)    
-1. [Antimønstre](antimonstre.md)
-1. [Implementasjon](implementasjon.md)
-1. [Vedlegg](Vedlegg.md)    
+\tableofcontents  
 
 
 \newpage
-
 !include whitepaper/Introduksjon.md
 
 \newpage
-
 !include whitepaper/FellesUtfordringer.md
 
 \newpage
-
-!include whitepaper/DefinisjonOgTerminologi.md
-
-\newpage
-
 !include whitepaper/Sky.md
 
 \newpage
+!include whitepaper/Prosjektstyring.md
 
+\newpage
+!include whitepaper/Risikovurdering.md
+
+\newpage
+!include whitepaper/DefinisjonOgTerminologi.md
+
+\newpage
 !include whitepaper/ArkitekturOgTeknisk.md
 
 \newpage
-
-!include whitepaper/antimonstre.md
-
-\newpage
-
 !include whitepaper/Vedlegg.md
 
 \newpage

@@ -1,4 +1,7 @@
-# Landingssoner 
+# Nyttige definisjoner og terminologi
+
+
+## Landingssoner
 
 Landingssoner i Azure består av flere abonnementer (subscriptions) i satt opp på en skalerbar måte og som samtidig ivaretar sikkerhet og tilhørende tjenester som nettverk og identitet.
 
@@ -11,7 +14,9 @@ Generelt kan vi se på en landingssone slik:
 
 En målarkitektur for offentlig sektor må ta høyde for både on-prem (/edge) og public cloud og styringgsett må understøtte dette holoistisk.
 
-# Tilgjengelighet (SLA)
+
+## Tilgjengelighet (SLA)
+
 - Høy tilgjengelighet (E.g - Konsumenttjeneste)
 99.99 eller 99.95% oppetid. Noe nedetid (minutter) per år aksetabelt. Redundante server(e) og lagringskopier - men ikke på tvers av datasentere. 
 

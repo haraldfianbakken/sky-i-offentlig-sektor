@@ -1,4 +1,6 @@
-## Datacenters in Norway
+# Vedlegg
+
+## Azure i Norge
  - [2 datasentere i Norge](https://finansavisen.no/nyheter/teknologi/2021/09/28/7744051/microsoft-dobler-investeringen-i-norge-bygger-to-nye-datasentre)
  - [Datalagring i Azure](https://azure.microsoft.com/nb-no/global-infrastructure/data-residency/#overview)
  - [Availability Zones in Norway](https://pulse.microsoft.com/nb-no/transform-nb-no/na/fa2-microsoft-expands-with-datacenter-availability-zones-in-norway/)

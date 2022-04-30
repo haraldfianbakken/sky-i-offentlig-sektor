@@ -6,9 +6,9 @@ Det eksisterer ulike operasjonsmodeller for drift av sky-tjenester:
 - Enterprise operations/storskala drift: Sentralt team tar mer ansvar ende til ende, også på lag som overvåking på applikasjonsnivå.
 - Distribuert drift: En kombinasjon av de 3 modellene. For eksempel I forbindelse med selskaper som slår seg sammen, eller et selskap fordelt over flere land med lokale IT-avdelinger.
 
-Et så kalt Cloud Center of Excellence – eller skyplattformteam – understøtter typisk enterprise operations modellen.
+Et så kalt Cloud Center of Excellence – eller Kompetansesenter Sky – understøtter typisk enterprise operations modellen.
 
-Dette er et viktig team å ha på plass når man skal gå fra tradisjonell drift over på en mer moderne DevOps-tankegang hvor man har som mål å gjøre DevOps-team mer i stand til å selv provisjonere og drifte sine løsninger.
+Dette er et viktig team å ha på plass når man skal gå fra tradisjonell drift over på en mer moderne DevOps-tankegang hvor man har som mål å gjøre DevOps-team mer i stand til å selv provisjonere og drifte sine løsninger. Personene i dette teamet bør være allokert til denne innsastsen i så stor grad det lar seg gjøre (ideelt sett 100%) for å få god nok fokus på ny teknologi og måter å jobber på.
 
 En markant forskjell er at IT blir mer en broker som hjelper de andre teamene med å bli gode på det skal gjøre.
 
