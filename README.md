@@ -24,5 +24,5 @@ Dette arbeidet er ikke offisielt sertifisert materiale og har ikke gjennomgått 
 
 ## Bidragsytere
  - Microsoft (Harald S. Fianbakken, Christopher Frenning, Henry Hagnäs, Ståle Johnsen)
- - Crayon (Jan Egil Ring)
- - ..
+ - Crayon (Jan Egil Ring, Fredrik Thorsen)
+ - More to be announced.
