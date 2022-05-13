@@ -200,7 +200,11 @@ En annen fordel er at PaaS-tjenester som er konfigurert med private endepunkter 
 
 # Fysisk sikring av datasenter
 
+Artikkelen [Azure security fundamentals documentation](https://docs.microsoft.com/en-us/azure/security/fundamentals/physical-security) inneholder en hel mengde informasjon om sikkerhet i sky - blant annet [denne artikkelen](https://docs.microsoft.com/en-us/azure/security/fundamentals/physical-security) som beskriver fasiliteter og fysisk sikkerhet på Microsoft`s datasentre.
 
+Microsoft har også en [virtuell datasenter omvisning](https://news.microsoft.com/stories/microsoft-datacenter-tour/) som kan anbefales for å få et visuelt inntrykk av den fysiske sikkerheten.
+
+På [Microsoft Service Trust Portal](https://servicetrust.microsoft.com/) er ytterligere dokumentasjon rundt valideringeringer utført av 3. parter opp mot industri-standarder tilgjengelig.
 
 ## Tekniske komponenter for sikring og compliance
 
