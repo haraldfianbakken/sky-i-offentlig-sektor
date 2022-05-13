@@ -78,8 +78,13 @@ Nøkkelhantering og hemmelighetshantering i Azure har flere nivåer av sikkerhet
 - Azure Key Vault Managed HSM: Key Vault med dedikert maskinvarebasert sikkerhetsmodul. FIPS 140-3. 
 - Azure Dedicated HSM: Gir full tilgang til en maskinvarebasert Thales sikkerhetsmodul som er hostet i Azure Datasenter. Kan brukes som og kobles til On-Premise Thales HSMer. FIPS-140-3.
 
-### Confidential computing
+### Konfidensiell Databehandling
 
+Den seineste førbedringen i datasikkerhet er "Confidential Compute", Konfidensiell Databehandling. I korthet handler det om å kryptere all data også mens den behandles. Kombinert med kryptering på nettverk og lagring kan kunden forsikre seg om att ikke engang Microsoft kan lese dataen mens den behandles. 
+
+Konfidensiell databehandling skal ikke anses som en magisk løsning til datasikkerhet men den er en viktigt byggestein vid hantering av sensitiv data. KD/CC fjerner behov att stole på di som har fysisk tilgang til serverene eller administrativ tilgang til virtualiseringslaget (Hypervisor).
+
+//TODO: diskutere hvor mye detaljer vi ønsker å gå in i her
 
 ### Customer Lockbox
 
