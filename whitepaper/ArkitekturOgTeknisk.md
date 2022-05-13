@@ -49,6 +49,8 @@ Du kan sikkert knytte ditt kontor til Azure ved hjelp av f.eks Site-to-Site VPN 
 
 Dersom det er behov for svært mange klienter tilknyttet et virtuelt nettverk og/eller det er mange kontorer som skal tilknyttes - så bør man vurdere å kombinere dette med Azure Virtual WAN.
 
+Viktig å kjenne til at ExpressRoute er en privat kobling til Azure men er ikke kryptert hvis man ikke bruker ExpressRoute Direct, som har mulighet før MACSec. Da man bygger koblinger fra datasenter eller kontor med ExpressRoute må man vurdere om alle protokoll man bruker er krypterte eller om man må bruke VPN over Expressroute. Di fleste moderne protokoll er allerden kryptert men i ett moderniserings-prosjekt er det mulig att man må legge til kryptering.
+
 ## Sikring av nettverk
 
 I Azure finnes det mange aspekter av nettverkssikkerhet. På mange måter kan man designe en nettverkstopolgi som ligner et tradisjonelt datasenter med segmentering mm. 
@@ -59,14 +61,32 @@ I tillegg bør du basere sikkerhetsmodellen din på en "Zero Trust" modell (Se Z
 
 ## Tekniske komponenter for sikring og compliance
 
- - Azure Datasenter sikring
- - Customer Lockbox
- - Confidential computing
- - Azure Policy
- - Customer managed Keys (Kryptering og Bring-Your-Own-Key)
- - Azure Dedicated HSM
- - Azure ARC
- - Azure Dedicated Hosts
+### Azure Datasenter sikring
+
+### Kryptering i Azure
+
+Moderne nettverksprotokoll er krypterte og standardinstillingene på Azure Platform tjenster er att di er kryptert med TLS.
+
+All data som lagres i Azure er også kryptert, standardinstillingene bruker kryptonøkler som Microsoft genererer og hanterer før kunden slik att alt er transparent. Hvis ønskelig kan man bruke kundeadministrerte kryptonøkler ("Customer Managed Keys"). Da må kunden hantere disse selv og hvis man mister di er data utilgjengligt. 
+
+### Azure HSM
+
+Nøkkelhantering og hemmelighetshantering i Azure har flere nivåer av sikkerhet sånn att hver kunde kan få sine behov trygget.
+
+- Azure Key Vault Standard: Programvarebasert sikker nøkkelhantering. 
+- Azure Key Vault Premium: Har samme funksjonalitet som Standard men alle nøkler og hemmeligheter spares på en maskinvarebasert sikkerhetsmodul (Hardware Security Module, HSM). FIPS 140-2.
+- Azure Key Vault Managed HSM: Key Vault med dedikert maskinvarebasert sikkerhetsmodul. FIPS 140-3. 
+- Azure Dedicated HSM: Gir full tilgang til en maskinvarebasert Thales sikkerhetsmodul som er hostet i Azure Datasenter. Kan brukes som og kobles til On-Premise Thales HSMer. FIPS-140-3.
+
+### Confidential computing
+
+
+### Customer Lockbox
+
+### Azure Policy
+
+### Azure ARC
+### Azure Dedicated Hosts
 
 ## Utvalgte sikkerhetselementer
 
