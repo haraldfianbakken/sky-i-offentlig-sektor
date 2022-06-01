@@ -17,7 +17,7 @@ Vi ønsker med dette prosjektet å dokumentere og addressere ulike utfordringer 
 - FellesUtfordringer [50%, trenger mer arbeid]
 - Sky [70%, hybrid, todos og rettskriving gjenstår]
 - Prosjektstyring [60%, kompetansesenter sky, driftsenter sky mm. Må nøstes inn med styresett.md]
-- Risikovurdering [20%, må detaljeres og mitigeres]
+- Risikovurdering [20%, må detaljeres og forklares hvordan mitigeres/reduseres]
 - DefinisjonOgTerminologi [50% - kan fylles på med mer underveis]
 - ArkitekturOgTeknisk [80%, flytte matrise til CAF/styresett kapittel og litt omskriving]
 - Implementasjon [70%, skrive om VDI/applikasjonsportefølje i kommunale enheter vs administrativ, skrive om AD/modernisering ]
