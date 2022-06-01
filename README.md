@@ -8,10 +8,10 @@ Vi ønsker med dette prosjektet å dokumentere og addressere ulike utfordringer 
 ## Hva som kan forventes
  - Referanse arkitektur(er)
  - Blueprints og maler for deployment
- - PDF/Whitepaper (bygges automatisk basert på Github)
+ - [PDF - Whitepaper (Last ned siste versjon)](https://github.com/haraldfianbakken/sky-i-offentlig-sektor/blob/main/build/whitepaper.pdf) (bygget automatisk fra dokumentasjon her)
  - Artikler, linker og enkelte tekser til juridiske vurderinger for å addressere GDPR/Schrems-II/mm. 
 
-## Arbeidslogg - mot publisering mot v1.0
+## Arbeidslogg v0.5 - mot publisering av v1.0
 
 - Introduksjon [100%]
 - FellesUtfordringer [50%, trenger mer arbeid]
@@ -21,11 +21,11 @@ Vi ønsker med dette prosjektet å dokumentere og addressere ulike utfordringer 
 - DefinisjonOgTerminologi [50% - kan fylles på med mer underveis]
 - ArkitekturOgTeknisk [80%, flytte matrise til CAF/styresett kapittel og litt omskriving]
 - Implementasjon [70%, skrive om VDI/applikasjonsportefølje i kommunale enheter vs administrativ, skrive om AD/modernisering ]
-- Vedlegg [90%, legge inn link fra David rundt Schrems-II og siste artikler rundt dette]
+- Vedlegg [90%, legge inn link fra nyere artikler og diskusjoner rundt Schrems-II og siste artikler rundt dette]
 
-- Formattering [0% - må fikses]
-- Skrivefeil [0% - må fikses/gjennomgås]
-- Rødtråd [0% - må gjennomgås]
+- Formattering [50% - må fikses]
+- Skrivefeil [50% - må fikses/gjennomgås]
+- Rødtråd [50% - må gjennomgås]
 ## Bidrag
 Dette er et samarbeid mellom Microsoft, annerkjente tjenestelevandører og offentlige instanser for å utforme retningslinjer, maler og arkitektur for applikasjoner på Microsoft sine skyplattformer (Azure, Microsoft 365, Power Platform mm).
 
