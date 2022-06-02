@@ -12,7 +12,7 @@ Det er identifsert en rekke 'antimønstre' (Anti-patterns) som man bør ta en ek
 | Planlegging | Feil tjenestemodell | [Choose the wrong service model](./plan-antipatterns.md#antipattern-choose-the-wrong-service-model) |
 | Planlegging | Erstatte fremfor å modernisere | [Replace architecture](./plan-antipatterns.md#antipattern-replace-architecture) |
 | Klargjøring | Benytte forhåndsvisningstjenester i produksjon | [Assume released services are ready for production](./ready-antipatterns.md#antipattern-assume-released-services-are-ready-for-production) |
-| Klargjøring | Upresise antakelser rundt rbusthet og høytilgjengelighet | [Assume increased resiliency and availability](./ready-antipatterns.md#antipattern-assume-increased-resiliency-and-availability) |
+| Klargjøring | Upresise antakelser rundt robusthet og høytilgjengelighet | [Assume increased resiliency and availability](./ready-antipatterns.md#antipattern-assume-increased-resiliency-and-availability) |
 | Klargjøring | IT som en skyleverandør | [Become a cloud provider](./ready-antipatterns.md#antipattern-become-a-cloud-provider) |
 | Adopsjon | Utilstrekkelig sikring | [Migrate, modernize, or innovate without guardrails](./migrate-antipatterns.md#antipattern-migrate-modernize-or-innovate-without-guardrails) |
 | Adopsjon | Utilstrekkelig kartlegging | [Migrate, modernize, or innovate without an assessment](./migrate-antipatterns.md#antipattern-migrate-modernize-or-innovate-without-an-assessment) |
