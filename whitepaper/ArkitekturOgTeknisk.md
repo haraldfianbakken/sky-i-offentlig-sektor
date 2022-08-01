@@ -36,6 +36,25 @@ Kommunal- og fylkeskommunal skole er separert i dedikerte tenants i den initiell
 [Feide](https://www.feide.no/om-feide) er den nasjonale løsningen for sikker innlogging og datadeling i utdanning og forskning.
 Våren 2022 fikk Feide støtte for innlogging med Azure AD-autentisering, noe som gjør det mulig for elever og lærere å logge på tjenester som støtter Feide med sin Microsoft-konto.
 
+## Principle of Least Privilege
+I [prinsippet om least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) skal en brukerkonto eller en prosess kun ha tilgang til det som kreves for å kunne utføre oppgaven, og gjerne kun i den perioden oppgaven utføres hvis mulig. Og kontoen bør ellers ha så lite rettigheter som mulig.
+
+Dette prinsippet henger også tett sammen med det neste avsnittet om å skille tilgangsnivå på brukere.
+
+## Skill tilgangsnivå på brukerkontoer
+For brukere med høye tilgangsnivåer skal brukerkontoene som er gitt rettighetene skilles ut i egne brukere, og ikke gis til brukerens vanlige brukerkonto som brukes til å logge på PC-en og lese e-post med.
+
+Eksempel på høye tilgangsnivåer:
+* Azure AD-roller, som Global administrator, User administrator, Security administrator, osv.
+* Tilgang til produksjonsmiljø for en tjeneste som kjører i en Azure subscription.
+
+De samme prinsippene gjelder ikke kun for sky, men også on-premises-miljøer.
+
+Illustrasjonen fra Microsoft viser tre ulike sikkerhetsnivåer for å skille brukerkontoer avhengig av rettighetene deres.
+![End-to-end Protection For Privileged Sessions](illustrations/tilgangsniva.png)
+
+For mer informasjon, se Microsofts dokumentasjon på temaet: [https://docs.microsoft.com/en-us/security/compass/privileged-access-accounts](https://docs.microsoft.com/en-us/security/compass/privileged-access-accounts).
+
 ## Klassifiseringmatrise for applikasjoner
 Her er et forsøk på hvordan vi kan tenke rundt klassifisering/skille av applikasjoner:
 
