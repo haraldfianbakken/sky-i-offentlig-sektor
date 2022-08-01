@@ -33,6 +33,9 @@ output: pdf_document
 !include whitepaper/ArkitekturOgTeknisk.md
 
 \newpage
+!include whitepaper/AutomatiseringOgXOps.md
+
+\newpage
 !include whitepaper/Implementasjon.md
 
 \newpage
